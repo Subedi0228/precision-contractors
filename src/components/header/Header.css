@@ -1,0 +1,67 @@
+/* Header - Top Contact Bar */
+.header {
+  background: #A1ACBD;
+  padding: 18px;
+  font-size: 28px;
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__contact-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header__contact-link:hover {
+  color: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 8px;;
+  }
+  
+  .header__contact-info {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+  }
+  
+  .header__contact-link {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 0;
+  }
+  
+  .header__container {
+    padding: 0 15px;
+  }
+  
+  .header__contact-info {
+    gap: 6px;
+  }
+  
+  .header__contact-link {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

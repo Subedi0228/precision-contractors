@@ -1,0 +1,44 @@
+precision-contractor-website/
+├── public/
+│   ├── images/
+│   │   ├── hero-house.jpg
+│   │   ├── roofing-service.jpg
+│   │   ├── siding-service.jpg
+│   │   ├── gutters-service.jpg
+│   │   ├── windows-service.jpg
+│   │   ├── decks-service.jpg
+│   │   └── remodels-service.jpg
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── header/
+│   │   │   ├── Header.tsx
+│   │   │   └── Header.css
+│   │   ├── hero/
+│   │   │   ├── HeroSection.tsx
+│   │   │   └── HeroSection.css
+│   │   ├── services/
+│   │   │   ├── ServicesSection.tsx
+│   │   │   ├── ServiceCard.tsx
+│   │   │   └── ServicesSection.css
+│   │   ├── contact/
+│   │   │   ├── ContactSection.tsx
+│   │   │   ├── ContactForm.tsx
+│   │   │   └── ContactSection.css
+│   │   └── footer/
+│   │       ├── Footer.tsx
+│   │       └── Footer.css
+│   ├── styles/
+│   │   ├── globals.css
+│   │   ├── variables.css
+│   │   └── reset.css
+│   ├── utils/
+│   │   └── constants.ts
+│   ├── App.tsx
+│   ├── App.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
