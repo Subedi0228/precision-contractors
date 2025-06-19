@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/header/Header';
-// import HeroSection from './components/hero/HeroSection';
+import HeroCarousel from './components/hero/carousel/Carousel';
 // import ServicesSection from './components/services/ServicesSection';
 // import ContactSection from './components/contact/ContactSection';
 // import Footer from './components/footer/Footer';
@@ -10,8 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* Uncomment sections as you create them */}
-      {/* <HeroSection /> */}
+      <HeroCarousel />
       {/* <ServicesSection /> */}
       {/* <ContactSection /> */}
       {/* <Footer /> */}
