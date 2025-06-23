@@ -1,6 +1,5 @@
-import React from 'react';
 import Header from './components/header/Header';
-import HeroCarousel from './components/hero/carousel/Carousel';
+import Hero from './components/hero/Hero';
 // import ServicesSection from './components/services/ServicesSection';
 // import ContactSection from './components/contact/ContactSection';
 // import Footer from './components/footer/Footer';
@@ -10,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeroCarousel />
+      <Hero />
       {/* <ServicesSection /> */}
       {/* <ContactSection /> */}
       {/* <Footer /> */}

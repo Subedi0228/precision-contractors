@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{ /*Overall navbar styles */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute; /* Position absolutely to overlay on content */
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    background: transparent;
+    gap: 30px;
+}
+
+.navbar_brand{ /* Styles for the logo/brand of the navbar*/
+    display: flex;
+    align-items: center;
+    /*
+    clamp() clamps a middle value within a range of values between a defined minimum bound and a maximum bound.
+    */
+    gap: clamp(5px, 0.8vw, 10px);
+}
+
+.brand_logo{ /* Styles for the logo image */
+    width: clamp(40px, 4vw, 60px);
+    height: auto;
+}
+
+.navbar_links{ /* Styles for the links in the navbar */
+    display: flex;
+    list-style-type: none;
+    gap: clamp(10px, 3.5vw, 50px);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_brand,.navbar_links {
+    color: white;
+    font-size: clamp(10px, 3vw, 36px);
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Need to make the navbar into a hamburger menu if width is less than 480 */
+@media (max-width: 480px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
