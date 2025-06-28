@@ -1,6 +1,6 @@
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
-// import ServicesSection from './components/services/ServicesSection';
+import Services from './components/services/Services';
 // import ContactSection from './components/contact/ContactSection';
 // import Footer from './components/footer/Footer';
 import './App.css';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      {/* <ServicesSection /> */}
+      <Services />
       {/* <ContactSection /> */}
       {/* <Footer /> */}
       
