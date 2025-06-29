@@ -1,0 +1,12 @@
+/* contact section header divider */
+.contact_header_divider {
+    width: 100px;
+    height: 6px;
+    background-color: #77A1CD;
+    margin-bottom: 24px;
+}
+
+/* contact header text styling */
+.contact_header_text {
+    margin-bottom: 5vw; /* Add space under "contact" */
+}
